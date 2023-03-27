@@ -1,13 +1,52 @@
-h1{
-  text-align: center;
-  color:blue;
-  font-family: 'Chewy', cursive;
-  font-weight: bold;
-  margin: 20px;
+:root{
+  --primary-color:#a9eee6;
+  --secondary-color:#fefaec;
+  --third-color: #f9a1bc;
+  --fourth-color:#625772;
+  --heading-font:'Chewy', cursive;
+  --content-font:'Shadows Into Light', cursive;
 }
-p{
 
-  font-family: 'Shadows Into Light', cursive;
-  color: black;
-  margin-top: 40px;
+body{
+  text-align: center;
+}
+
+.head{
+  background-color: var(--secondary-color);
+  padding: 150px 50px;
+}
+
+.navbar{
+  background-color: #fff3ca58;
+  border: 0.5px solid var(--secondary-color);
+}
+.head h1{
+  font-family: var(--heading-font);
+}
+
+.head p{
+  font-family: var(--content-font);
+}
+
+
+.head h2{
+  font-family: var(--content-font);
+  margin-top: 30px;
+  color:var(--fourth-color)
+}
+
+.btn-contact{
+  margin-top: 60px;
+}
+.btn-branding{
+  background-color:var(--third-color) ;
+  color:black;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 30px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
