@@ -104,3 +104,10 @@ img{
   background-color: white;
   color:var(--primary-color);
 }
+.about-me img{
+  max-width: 300px;
+  border: 0;
+  margin: 30px auto;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px hsl(0, 0%, 50%,0.50);
+}
