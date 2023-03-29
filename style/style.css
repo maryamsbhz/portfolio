@@ -12,15 +12,19 @@
   .picture{
     display:none;
   }
-
 }
-body{
-  text-align: center;
+
+@media(max-width:994px){
+  .first-row{
+    display:none;
+  }
+
 }
 
 .head{
   background-color: var(--secondary-color);
   padding: 130px 50px;
+  text-align: center;
 }
 
 .navbar{
@@ -63,6 +67,7 @@ body{
 
 .container{
   margin-top: 30px;
+  text-align: center;
 }
 
 .row{
@@ -104,10 +109,57 @@ img{
   background-color: white;
   color:var(--primary-color);
 }
-.about-me img{
-  max-width: 300px;
+
+.about-me .row{
+  margin:80px 20px;
+}
+
+#pic{
+  max-width: 250px;
   border: 0;
-  margin: 30px auto;
-  border-radius: 50%;
   box-shadow: 1px 1px 1px 1px hsl(0, 0%, 50%,0.50);
+}
+
+
+.about-me .info{
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: var(--content-font);
+}
+
+.about-me .btn{
+  padding: 5px 50px;
+  background-color: var(--secondary-color);
+  color: var(--fourth-color);
+}
+
+.personal-info{
+  text-align: left;
+}
+.personal-info p{
+  font-family: var(--heading-font);
+  opacity: 0.9;
+  line-height: 1.7;
+}
+.contact-me{
+  background-color: var(--third-color);
+  opacity: 0.6;
+  text-align: center;
+  border-radius:50px 0 50px 0;
+  margin: 150px 50px;
+  padding: 70px 50px;
+}
+
+.contact-me h2{
+  font-size: 43px;
+  font-family: var(--heading-font);
+  color: hsl(342, 80%, 58%,0.5);
+}
+
+.contact-me a{
+  font-size: 20px;
+  color: #f12562;
+  opacity:1 ;
+  font-family: var(--heading-font);
+  text-decoration: none;
 }
