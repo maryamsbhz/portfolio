@@ -84,10 +84,13 @@ img{
   padding: 20px;
   margin-top: 30px;
 }
-.row h1{
+.row h1,h3{
   font-family: var(--heading-font); 
 }
 
+.content p{
+  font-size: 0.5px;
+}
 
 .row p{
   font-family: var(--content-font);
@@ -110,7 +113,7 @@ img{
   color:var(--primary-color);
 }
 
-.about-me .row{
+.content .row{
   margin:80px 20px;
 }
 
@@ -121,13 +124,13 @@ img{
 }
 
 
-.about-me .info{
+.content .info{
   font-size: 20px;
   margin-top: 10px;
   font-family: var(--content-font);
 }
 
-.about-me .btn{
+.content .btn{
   padding: 5px 50px;
   background-color: var(--secondary-color);
   color: var(--fourth-color);
