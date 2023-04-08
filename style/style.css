@@ -178,3 +178,22 @@ img{
   cursor: pointer;
   color: white;
 }
+#contact-me a:hover{
+  color:white ;
+}
+
+footer .footer-text{
+  font-family: var(--heading-font);
+  color: var(--fourth-color);
+  font-size: 34px;
+}
+footer .social-link a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+
+
+}
+footer .social-link a:hover{
+  color: var(--fourth-color);
+}
