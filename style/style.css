@@ -194,6 +194,17 @@ footer .social-link a{
 
 
 }
+
 footer .social-link a:hover{
   color: var(--fourth-color);
+}
+
+.github-link{
+  color: var(--fourth-color);
+  text-align: center;
+  font-family: var(--content-font);
+}
+
+.github-link a{
+  text-decoration: none;
 }
